@@ -1,0 +1,113 @@
+/*open* /
+* {
+  border: 1px solid #FF0000;
+}
+/*close*//*open*/
+body {
+  background: #000;
+  color: #ffffff;
+  height: 49em;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+/*close*//*open*/
+header {
+  padding: 0px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+/*close*//*open*/
+#splash {
+  background-image: url( "../media/restaurant-hero-image.jpg");
+  height: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+/*close*//*open* /
+#splash img {
+  width: 100%;
+}
+/*close*//*open*/
+#splash button {
+  color: #ffffff;
+  /*margin-top: 3em;*/
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  width: 15em;
+  padding: 15px;
+  margin-bottom: .5em;
+  transition: background-color 0.5s ease;
+}
+/*close*//*open*/
+#splash button:hover {
+  background-color: rgba(128, 0, 0, 0.5)
+}
+/*close*//*open*/
+#splash a button{
+  text-decoration: none;
+  font-size: 2.5em;
+  color: #ffffff;
+}
+/*close*//*open*/
+#information_area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/*close*//*open*/
+#information_area .info{
+  width: 15em;
+  margin: 0px 1em;
+}
+/*close*//*open*/
+#information_area .info img {
+  height: 50px;
+  width: 50px;
+  padding: 4px 6px 0px 0px;
+}
+/*close*//*open*/
+#information_area .info .info_title {
+  display: flex;
+  flex-flow: row nowrap;
+}
+/*close*//*open*/
+.spacer {
+  height:8em;
+  width: 1px;
+}
+/*close*//*open*/
+footer {
+  text-align: center;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*/

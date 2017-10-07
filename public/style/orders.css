@@ -1,0 +1,223 @@
+/*open* /
+* {
+  border: 1px solid #FF0000;
+}
+/*close*//*open*/
+body {
+  background: linear-gradient(
+      to right,
+      orange, #f06d06
+    );
+  color: #fff;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+}
+/*close*//*open*/
+header {
+  padding: 0px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 86px;
+  display: flex;
+}
+/*close*//*open*/
+header a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+/*close*//*open*/
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40em;
+}
+/*close*//*open*/
+#order_area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 55em;
+
+}
+/*close*//*open*/
+#burger {
+  display: flex;
+  flex-flow: column nowrap;
+}
+/*close*//*open*/
+.burger_area, .pizza_area {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding-left: 25px;
+}
+/*close*//*open*/
+.burger_area h6:first-child {
+  width: 50%;
+}
+/*close*//*open*/
+.pizza_area h6:first-child {
+  width: 50%;
+}
+/*close*//*open*/
+#customer_info {
+
+}
+/*close*//*open*/
+.order {
+  margin: 10px;
+  height: 36em;
+}
+/*close*//*open*/
+#order_form {
+  width: 36em;
+}
+/*close*//*open*/
+#item_picker {
+  border: 2px solid #ffffff;
+  height: 15em;
+  overflow: scroll;
+}
+/*close*//*open*/
+#item_picker * {
+  margin: 0px;
+  text-transform: capitalize;
+}
+/*close*//*open*/
+.item {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+/*close*//*open*/
+.item h3:first-child{
+
+}
+/*close*//*open*/
+#order_form h1 {
+  font-size: 2em;
+  padding: 0px;
+  margin: 0px;
+}
+/*close*//*open*/
+#order_form h3 {
+  margin: 10px 0px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+/*close*//*open*/
+#add_amount {
+  display: flex;
+  flex-flow: row;
+}
+/*close*//*open*/
+#add_amount input{
+
+}
+/*close*//*open*/
+.info_form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+/*close*//*open*/
+#add_amount button{
+  background-color: blue;
+}
+/*close*//*open*/
+.info_form button {
+  height: 4em;
+  margin-top: 10px;
+  background-color: green;
+}
+button:hover {
+  filter: brightness(110%);
+}
+/*close*//*open*/
+#ticket {
+  border: 2px solid #ffffff;
+  width: 22em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+/*close*//*open*/
+#items_selected {
+  overflow: scroll;
+  height: 500px;
+}
+/*close*//*open*/
+#items_selected div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+/*close*//*open*/
+#items_selected div h3 {
+  padding: 0px;
+  margin: 0px;
+}
+/*close*//*open* /
+#ticket {
+
+}
+/*close*//*open*/
+#totals {
+  display: flex;
+  flex-flow: column nowrap;
+}
+/*close*//*open*/
+#totals div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+/*close*//*open*/
+#totals div h3 {
+  margin-left: 40px;
+}
+/*close*//*open*/
+#totals div h2 {
+  margin-left: 20px;
+}
+/*close*//*open*/
+.selected {
+  border: 2px solid #ff0000;
+}
+/*close*//*open* /
+.expander {
+  width: 25em;
+}
+/*close*//*open*/
+footer {
+  text-align: center;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*//*open*/
+
+/*close*/
